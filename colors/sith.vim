@@ -1,4 +1,3 @@
-" WIP Theme based off typewriter-vim's dark theme
 " Name: sith.vim
 " Version: 0.0
 " Based On: logico/typewriter.vim and challenger-deep-theme/vim
