@@ -38,7 +38,7 @@ endfunction
 
 let s:black0 = {"color" : "#121212", "cterm": "0", "cterm16": "8",
       \"bgs" : ["Pmenu"],
-      \"fgs" : ["VertSplit"]
+      \"fgs" : ["VertSplit","LimelightDim"]
       \}
 
 let s:black1 = {"color" : "#1C1C1C", "cterm": 0, "cterm16": "8",
@@ -46,7 +46,7 @@ let s:black1 = {"color" : "#1C1C1C", "cterm": 0, "cterm16": "8",
       \"fgs": ["Search","IncSearch","PmenuSel"]}
 
 let s:black2 = {"color" : "#211f1f", "cterm": 0, "cterm16": "8",
-      \"bgs": ["Normal","markdownLinkText","mkdLink","Title","WildMenu","ModeMsg","MoreMsg","WarningMsg","VertSplit"],
+      \"bgs": ["Normal","TODO","markdownLinkText","mkdLink","Title","WildMenu","ModeMsg","MoreMsg","WarningMsg","VertSplit"],
       \"fgs": ["Visual","NonText"] }
 
 let s:grey0 = {"color" : "#262626", "cterm": 0, "cterm16": "8",
@@ -63,11 +63,11 @@ let s:grey2 = {"color" : "#444444", "cterm": 0, "cterm16": "8",
 
 let s:grey3 = {"color" : "#4E4E4E", "cterm": 0, "cterm16": "8",
       \"bgs": [],
-      \"fgs": ["Comment","javaScriptDocTags"] }
+      \"fgs": ["javaScriptDocTags"] }
 
 let s:grey4 = {"color" : "#6C6C6C", "cterm": 0, "cterm16": "8",
       \"bgs": [],
-      \"fgs": ["Directory","String","jsStorageClass","jsObjectKey","jsObjectProp","jsFuncCall","markdownLinkDelimiter","markdownLinkTextDelimiter","mkdDelimiter","Statement","Label","Keyword","Exception","pugId","pugBegin","pugTop","pugIdChar","pugClassChar","pugAttributes","htmlTag"] }
+      \"fgs": ["Directory","String","jsStorageClass","jsObjectKey","jsObjectProp","jsFuncCall","markdownLinkDelimiter","markdownLinkTextDelimiter","mkdDelimiter","Statement","Label","Keyword","Exception","pugId","pugBegin","pugTop","pugIdChar","pugClassChar","pugAttributes"] }
 
 let s:grey5 = {"color" : "#808080", "cterm": 0, "cterm16": "8",
       \"bgs": [],
@@ -75,7 +75,7 @@ let s:grey5 = {"color" : "#808080", "cterm": 0, "cterm16": "8",
 
 let s:grey6 = {"color" : "#949494", "cterm": 0, "cterm16": "8",
       \"bgs": [],
-      \"fgs": ["Underlined","markdownUrl","mkdUrl"] }
+      \"fgs": ["Underlined","markdownUrl","mkdUrl","htmlTag","Comment"] }
 
 let s:grey7 = {"color" : "#A8A8A8", "cterm": 0, "cterm16": "8",
       \"bgs": [],
@@ -103,7 +103,7 @@ let s:red0 = {"color" : "#591d1d", "cterm": 0, "cterm16": "8",
 
 let s:red1 = {"color" : "#930000", "cterm": 0, "cterm16": "8",
       \"bgs": [],
-      \"fgs": ["Special","htmlTag","Tag","SpecialChar","Delimiter","SpecialComment","Debug"] }
+      \"fgs": ["Special","Tag","SpecialChar","Delimiter","SpecialComment","Debug"] }
 
 let s:red2 = {"color" : "#af010a", "cterm": 0, "cterm16": "8",
       \"bgs": [],
