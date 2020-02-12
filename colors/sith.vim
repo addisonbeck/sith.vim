@@ -2,6 +2,7 @@
 " Name: sith.vim
 " Version: 0.0
 " Based On: logico/typewriter.vim and challenger-deep-theme/vim
+" Comment
 
 " Credits:
 " Original Inspiration: logico/typewriter.vim
