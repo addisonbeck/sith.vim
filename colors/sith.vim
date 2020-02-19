@@ -5,8 +5,6 @@
 " Original Inspiration: logico/typewriter.vim
 " Code Formatting: challenger-deep-theme/vim
 
-hi clear
-
 if exists("syntax on")
   hi clear
   syntax reset
@@ -44,20 +42,20 @@ let s:black1 = {"color" : "#1C1C1C", "cterm": 0, "cterm16": "8",
       \"fgs": ["Search","IncSearch","PmenuSel"]}
 
 let s:black2 = {"color" : "#211f1f", "cterm": 0, "cterm16": "8",
-      \"bgs": ["Normal","TODO","markdownLinkText","mkdLink","Title","WildMenu","ModeMsg","MoreMsg","WarningMsg","VertSplit"],
+      \"bgs": ["linenr","CursorLineNR","Normal","TODO","markdownLinkText","mkdLink","Title","WildMenu","ModeMsg","MoreMsg","WarningMsg","VertSplit"],
       \"fgs": ["Visual","NonText"] }
 
 let s:grey0 = {"color" : "#262626", "cterm": 0, "cterm16": "8",
-      \"bgs": ["linenr", "CursorLineNR"],
+      \"bgs": [],
       \"fgs": [] }
 
 let s:grey1 = {"color" : "#303030", "cterm": 0, "cterm16": "8",
       \"bgs": ["ColorColumn"],
-      \"fgs": [] }
+      \"fgs": ["linenr"] }
 
 let s:grey2 = {"color" : "#444444", "cterm": 0, "cterm16": "8",
       \"bgs": ["MatchParen"],
-      \"fgs": ["linenr"] }
+      \"fgs": [] }
 
 let s:grey3 = {"color" : "#4E4E4E", "cterm": 0, "cterm16": "8",
       \"bgs": [],
